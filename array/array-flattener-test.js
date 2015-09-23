@@ -32,4 +32,8 @@ describe("flatten", () => {
 	it("should return a flat array when passed in three level nested Array arguments", () => {
 		deepStrictEqual(flattenArray([1, [3, [4, [9]]]]), [1, 3, 4, 9]);
 	});
+
+	it("should return a flat array when passed in empty nested Array arguments", () => {
+		deepStrictEqual(flattenArray([1, [3, [4, []]]]), [1, 3, 4]);
+	});
 });
