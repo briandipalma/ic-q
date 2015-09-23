@@ -12,6 +12,7 @@
     "babel": "^5.8.23",
     "eslint": "^1.5.0",
     "eslint-config-bdp": "briandipalma/eslint-config-bdp",
+    "jsverify": "^0.7.1",
     "lodash.isequal": "^3.0.4",
     "mocha": "^2.3.3"
   }
