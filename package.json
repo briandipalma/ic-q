@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha --compilers js:babel/register **/*-test.js --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandipalma/ic-q.git"
+  },
   "author": "Brian Di Palma",
   "license": "ISC",
   "devDependencies": {
