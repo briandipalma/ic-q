@@ -13,3 +13,9 @@ npm i
 ```bash
 npm t
 ```
+
+# Executing
+
+```bash
+node invite/execute-invite.js
+```
